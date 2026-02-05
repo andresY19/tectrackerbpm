@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117458168924",
+    "project_id": "bpm-notifications-59553",
+    "storage_bucket": "bpm-notifications-59553.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117458168924:android:9ba633a19cedc497cdca99",
+        "android_client_info": {
+          "package_name": "com.a2group.tectrackerbpm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYjN9Hk5fBlIaiX51G29hdpbb-ZUbvnkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
