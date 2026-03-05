@@ -1,24 +1,53 @@
-# Pull Request
-
-## 📌 Descripción
-Explica brevemente qué problema se resuelve o qué funcionalidad se implementa.
+# Pull Request ERP FrontEnd - Backend
 
 ---
 
-## 🎯 Tipo de cambio
+# 📌 Información general
 
-- [ ] Bug fix
-- [ ] Nueva funcionalidad
-- [ ] Refactor
-- [ ] Mejora de performance
-- [ ] Cambio en base de datos
-- [ ] Documentación
+**Nombre de la rama:**  
+**Módulo:**  
+**Rama base:**
+
+- [ ] dev(FrontEnd)
+- [ ] dev_estabilizacion(BackEnd)
+
+### Estado de la rama
+
+- [ ] Rama actualizada con `dev` (Git Rebase)
+- [ ] Rama estable sin errores de compilación
+- [ ] Rama contiene los últimos cambios del repositorio (hitos)
 
 ---
 
-## 🛠 Cambios realizados
+# 🎯 Tipo de cambio
 
-Describe los cambios principales:
+Seleccione el tipo de cambio realizado en este PR:
+
+- [ ] 🐞 Bug fix
+- [ ] ✨ Nueva funcionalidad (Feature)
+- [ ] ♻️ Refactor de código
+- [ ] 🚀 Mejora de performance
+- [ ] 🔧 Cambio técnico / mantenimiento
+- [ ] 📚 Documentación
+- [ ] 🗄 Cambio en base de datos
+
+---
+
+# 🏗 Capas afectadas (si aplica)
+
+Seleccione las capas impactadas por el cambio:
+
+- [ ] UI / Frontend
+- [ ] API
+- [ ] Logica
+- [ ] Entidades
+- [ ] Base de Datos
+
+---
+
+# 🛠 Cambios realizados
+
+Detalle los cambios principales realizados. (Detalle la funcionalidad, o flujo en el modulo)
 
 - Cambio 1
 - Cambio 2
@@ -26,48 +55,69 @@ Describe los cambios principales:
 
 ---
 
-## 🗄 Impacto en Base de Datos
+# 🧪 Cómo probar este cambio
 
-- [ ] No hay cambios
+Pasos para validar la funcionalidad (Detalle que funcionalidad o flujo en el modulo y se hace por cada cambio realizado):
+
+1.  Cambio 1
+    a. ir a
+    b. llegar a
+2.  
+3.  
+
+### Resultado esperado
+
+Explique qué resultado se espera obtener. (Por cada cambio realiazado)
+
+1.  Cambio 1
+    a. se espera que
+2. 
+3.  
+
+# 🗄 Impacto en Base de Datos
+
+- [ ] No hay cambios en base de datos
 - [ ] Cambios DDL
 - [ ] Cambios DML
 
 ### Script de ejecución
-Ruta o nombre del script:
 
-### Script rollback
-Ruta o nombre del script:
-
----
-
-## 🧪 Cómo probar este cambio
-
-Pasos para validar:
-
+Listado de script para BD (Con ubicación, FOLDER DE DESPLIEGUE)
 1.
 2.
 3.
 
-Resultado esperado:
+### Script rollback
+
+Listado de script para BD (Con ubicación, FOLDER DE DESPLIEGUE)
+1.
+2.
+3.
 
 ---
 
-## 📷 Evidencia (si aplica)
+# 🚀 Próximas actividades
 
-Screenshots / logs / resultados.
-
----
-
-## ⚠ Riesgos conocidos
-
-Describe posibles riesgos o impactos.
+Indique si hay funcionalidades relacionadas que se desarrollarán posteriormente.
+1.
+2.
+3.
 
 ---
 
-## ✔ Checklist
+# 🔄 Control de sincronización
+
+- [ ] Se ejecutó `git fetch`
+- [ ] Se ejecutó `git rebase origin/dev`
+- [ ] No existen conflictos pendientes
+
+---
+
+# ✔ Checklist
 
 - [ ] Código compila correctamente
-- [ ] Scripts DB incluidos
-- [ ] Script rollback incluido
-- [ ] Probado en ambiente local
+- [ ] Cambios probados en ambiente local
+- [ ] Scripts de base de datos incluidos (si aplica)
+- [ ] Script rollback incluido (si aplica)
 - [ ] No afecta funcionalidades existentes
+- [ ] Cumple estándares de desarrollo del proyecto
