@@ -8,8 +8,8 @@
 **Módulo:**  
 **Rama base:**
 
-- [ ] dev(FrontEnd)
-- [ ] dev_estabilizacion(BackEnd)
+- [] dev(FrontEnd)
+- [] dev_estabilizacion(BackEnd)
 
 ### Estado de la rama
 
