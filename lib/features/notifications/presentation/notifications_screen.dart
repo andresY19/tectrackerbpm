@@ -16,7 +16,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   @override
   void initState() {
     super.initState();
-
+    // Esto va a funcionar
     // 🔹 Importante: marcar leídas DESPUÉS del primer frame
     WidgetsBinding.instance.addPostFrameCallback((_) {
       NotificationService.instance.markAllRead();
